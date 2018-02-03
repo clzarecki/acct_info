@@ -32,7 +32,7 @@ class Database:
             for event in events:
                 self.add_event(event)
         elif isinstance(events, dict):
-             self.add_event(event)
+             self.add_event(events)
 
     def query_account(self, id) :
         if id in self.customers:
