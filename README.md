@@ -1,5 +1,8 @@
 # acct_info
 
+My solution assumes that all information is given for each new event and that
+the only information needed to be queried is the "account_information".
+
 1. It currently throws an exception in the JSON parsing.
 2. My solution is optimized for query latency. All the decision making is done
 at event insertion.
